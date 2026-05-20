@@ -1,0 +1,5 @@
+site_name: SkyGrid-UAV-Simulator
+site_dir: ../docs
+site_description: UAV swarm and sensor network simulations built with OMNeT++ and INET
+repo_url: https://github.com/your-username/SkyGrid-UAV-Simulator
+theme: readthedocs

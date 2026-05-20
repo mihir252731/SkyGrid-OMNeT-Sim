@@ -2,8 +2,6 @@
 
 SkyGrid-UAV-Simulator is an OMNeT++ and INET-based simulation framework for studying UAV swarms, mobile sensors, and coordination protocols in realistic wireless network scenarios. It combines configurable communication stacks with SITL-assisted mobility workflows so researchers can evaluate autonomous aerial data collection strategies before field deployment.
 
-![Protocol showcase](./documentation/media/swarm_protocol_demo.gif)
-
 ## What This Repository Includes
 
 - OMNeT++ simulation models for UAVs, ground stations, and sensor nodes
@@ -45,10 +43,13 @@ SkyGrid-UAV-Simulator/
 
 ## Important Note About This Upload Package
 
-This version was prepared for Git upload under a size limit. The following heavy artifacts were removed to keep the repository lightweight:
+This version was prepared for Git upload under a stricter size limit. The following heavy artifacts were removed to keep the repository lightweight:
 
 - `docker_setup/`
 - `showcases/sitl/ardupilot_files/`
+- `documentation/media/`
+
+This means the code, configs, and text documentation are included, while large demo images and animations were intentionally left out.
 
 If you need those parts later, you can restore them from your original local project copy.
 
